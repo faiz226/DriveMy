@@ -16,7 +16,7 @@
 -- commands) silently showed just one check when run this way, and \echo
 -- itself is a psql-only meta-command that errors outright over the CLI's
 -- non-psql connection. Confirmed the hard way on 2026-08-04: the incident log
--- in docs/DISASTER_RECOVERY.md §8 has the story.
+-- (see the project history).
 --
 -- This checks the SQL migrations. It does NOT check function-level EXECUTE
 -- grants inherited via Supabase's default privileges, which is a real,

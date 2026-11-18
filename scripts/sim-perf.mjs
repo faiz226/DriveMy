@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 /**
- * The simulator's performance run (WP5; results in docs/v2-plan/RESULTS.md).
+ * The simulator's performance run.
  *
  * Opens the simulator in its own Chrome profile with a phone's conditions (Android user agent, 851 x 393,
  * touch, 4x CPU throttling, 9 Mbps down / 3 Mbps up / 80 ms, cold cache), lets ?autopilot=1 drive the

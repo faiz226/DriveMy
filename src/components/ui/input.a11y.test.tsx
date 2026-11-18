@@ -7,7 +7,7 @@ import { FormField } from "./form-field";
 /**
  * Accessibility regression tests.
  *
- * The Lighthouse run in docs/reports/lighthouse.md recorded `aria-hidden-focus`
+ * A Lighthouse run recorded `aria-hidden-focus`
  * at score 0 on the auth form: the icon wrapper carried aria-hidden="true"
  * while containing the show/hide-password BUTTON. That made a functional
  * control keyboard-reachable but invisible to screen readers — WCAG 2.1 AA

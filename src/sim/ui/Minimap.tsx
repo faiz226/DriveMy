@@ -1,4 +1,4 @@
-// The yard from above, drawn from circuit.json as docs/circuit-v2/circuit-minimap.png draws it: grass,
+// The yard from above, drawn from circuit.json as the yard plan draws it: grass,
 // the concrete with its kerbs, the route, and the seven stations by number. The verdict puts each fault on it.
 import type { Vec2 } from '../contracts';
 import { circuit } from '../data';

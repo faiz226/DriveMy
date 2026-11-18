@@ -83,7 +83,7 @@ export interface CircuitData {
     zebras?: Zebra[];
     bays?: NonNullable<StationGeometry['bay']>[];
   };
-  /** The other cars, the signals, the merge and the stations' queues (the owner, 20 Oct): docs/circuit-v2/traffic_gen.py. */
+  /** The other cars, the signals, the merge and the stations' queues (the owner, 20 Oct) */
   traffic?: TrafficData;
   props: {
     booths: { centre: Vec2; size: Vec2; heading_deg: number }[]; office: { centre: Vec2; size: Vec2; heading_deg: number }; fence: number[];

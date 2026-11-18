@@ -1,5 +1,5 @@
 /**
- * Surfaces of the DriveMy design system (src/index.css, DESIGN.md).
+ * Surfaces of the DriveMy design system (src/index.css).
  *
  * A Panel rests, a Tile is acted on, the HeroPanel holds the readiness
  * instrument. Colour on them means state, never decoration.

@@ -1,5 +1,5 @@
 // @vitest-environment node
-// Every target of docs/v2-plan/physics/car-check.cjs, run through the app's own drive layer.
+// Every handling target, run through the app's own drive layer.
 import RAPIER from '@dimforge/rapier3d-compat';
 import { beforeAll, describe, expect, it } from 'vitest';
 import { circuit } from '../data';

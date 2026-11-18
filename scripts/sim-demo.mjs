@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 /**
- * The demo capture (WP6), saved in docs/v2-plan/demo/:
+ * The demo capture:
  *   - a first-person screenshot at each station, 3 s after it arms, from the autopilot's clean run;
  *   - the verdict of the clean run, and of the fault run (top and scrolled);
  *   - the yard from above, mid-run;

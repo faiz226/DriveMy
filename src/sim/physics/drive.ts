@@ -1,5 +1,5 @@
 // The Swift's drive layer: pure functions from the driver's inputs to wheel forces, brakes and
-// steering. The app and the tests use exactly these; docs/v2-plan/physics/car-check.cjs proved them.
+// steering. The app and the tests use exactly these.
 
 export interface DriveParams {
   mass: number; L: number; W: number; H: number; wheelbase: number; track: number;

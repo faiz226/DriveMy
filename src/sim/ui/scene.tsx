@@ -160,7 +160,7 @@ export function RenderScale({ spec }: { spec: TierSpec }) {
   );
 }
 
-// ?perf=1: every frame's duration, for the performance run (docs/v2-plan/RESULTS.md)
+// ?perf=1: every frame's duration, for the performance run
 const frames: number[] = [];
 let lastFrame = 0;
 let calls = 0;

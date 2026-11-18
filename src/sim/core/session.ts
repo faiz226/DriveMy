@@ -1,5 +1,5 @@
 // DriveMy v2 rules engine. Pure TypeScript: no React, no three.js, no Rapier.
-// Every threshold comes from rules.json, every position from circuit.json (docs/v2-plan/RULES.md).
+// Every threshold comes from rules.json, every position from circuit.json.
 import type {
   CarConfig, CircuitData, CreateSession, Fault, Gate, Mode, RulesData, SessionState, SimEvent,
   StationGeometry, StationId, StationProgress, Vec2, VehicleSample,
