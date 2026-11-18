@@ -498,7 +498,7 @@ export function TheoryPage() {
                         className="relative h-[290px] perspective-1000 cursor-pointer group"
                       >
                         <div
-                          className={`w-full h-full transition-transform [transition-duration:var(--motion)] [transition-timing-function:var(--ease-out)] motion-reduce:transition-none transform-style-3d ${
+                          className={`w-full h-full transition-transform [transition-duration:var(--motion-slow)] [transition-timing-function:var(--ease-spring)] motion-reduce:transition-none transform-style-3d ${
                             isFlipped ? "rotate-y-180" : ""
                           }`}
                         >
@@ -512,7 +512,7 @@ export function TheoryPage() {
                             <button
                               type="button"
                               onClick={(e) => toggleLearned(e, sign.id)}
-                              className="absolute top-2.5 right-2.5 z-10 w-8 h-8 rounded-full bg-background/85 backdrop-blur flex items-center justify-center hover:bg-muted transition-colors cursor-pointer"
+                              className="absolute top-2.5 right-2.5 z-10 w-8 h-8 rounded-full bg-background/90 flex items-center justify-center hover:bg-muted transition-colors cursor-pointer"
                               aria-label={learnedLabel(isLearned)}
                             >
                               <Star

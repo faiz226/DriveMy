@@ -36,6 +36,14 @@ Road sign images are reproduced from the **Malaysian Highway Code (Kod Jalan Ray
 | DotGothic16 | [SIL Open Font License 1.1](https://scripts.sil.org/OFL) |
 | JetBrains Mono | [SIL Open Font License 1.1](https://scripts.sil.org/OFL) |
 
+**Sign lettering:** JKR road signs on ordinary roads are set in Transport Heavy (JKR guideline ATJ 2E/87); expressway signs use LLM Lettering. Neither is openly licensed, so the page titles use Overpass in heavy capitals, the closest open face (Overpass descends from Highway Gothic, a sibling of the sign alphabets). No font file was copied from either sign face.
+
+## Kuala Lumpur Skyline
+
+**Location:** `src/assets/skyline/kl-night.svg`, `kl-day.svg`
+**Used in:** the page backdrop (night and morning haze)
+**Source:** drawn for this project as plain SVG shapes (towers are simplified silhouettes, not traced from any photograph). MIT (this project).
+
 ---
 
 ## Simulator Textures
