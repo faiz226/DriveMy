@@ -6,7 +6,10 @@ This document records all third-party content (images, datasets, and media) used
 
 ## Colour Vision Test Plates (Ishihara)
 
-Not distributed. The colour test is available only in private demo builds with locally held plates.
+**Location:** `public/color-plates/1.jpg` to `25.jpg`
+**Used in:** the Colour test page
+**Source:** the plate images in `Ishihara_Tests.pdf` ("Ishihara charts", Challenge TB, 2018), taken from the PDF unchanged.
+**Licence:** none granted. They are used only because DriveMy is a final-year-project prototype and is not commercial. **Replace or license them before any commercial release.**
 
 ---
 
