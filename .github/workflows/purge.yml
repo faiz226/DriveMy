@@ -15,7 +15,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Setup Supabase CLI
-        uses: supabase/setup-cli@v1
+        uses: supabase/setup-cli@v3
         with:
           # `supabase db query` first ships in CLI v3 (see the CLI reference); ci.yml stays on 2.x for `db push`.
           version: 3.2.0
